@@ -36,7 +36,7 @@ const HomePage = () => {
 
     let Hover = async ()=> {
           setIsLoading(true)
-             let response =  await fetch('http://127.0.0.1:8000/hover/', {
+             let response =  await fetch('https://domainfindr.onrender.com/hover/', {
                  method: "POST",
                  credentials: "include",
                  headers: {
@@ -63,7 +63,7 @@ const HomePage = () => {
 
          let NameCheap = async ()=> {
             setIsLoading(true)
-               let response =  await fetch('http://127.0.0.1:8000/hover/', {
+               let response =  await fetch('https://domainfindr.onrender.com/hover/', {
                    method: "POST",
                    credentials: "include",
                    headers: {
@@ -90,7 +90,7 @@ const HomePage = () => {
 
            let Domain = async ()=> {
             
-               let response =  await fetch('http://127.0.0.1:8000/hover/', {
+               let response =  await fetch('https://domainfindr.onrender.com/hover/', {
                    method: "POST",
                    credentials: "include",
                    headers: {
