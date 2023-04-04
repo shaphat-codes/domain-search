@@ -5,3 +5,6 @@
 ### 1. clone the repository.
 ### 2. Run pip install -r requirements.txt to install packages.
 ### 3. Run python manage.py runserver to start the project.
+
+# How To Test
+### enter a domain name in the search/input field and click submit. It will take some time to scrape and fetch results.
